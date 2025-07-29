@@ -5,7 +5,11 @@ Ce projet est une application web interactive développée avec **Dash** et **Pl
 > 🎯 **Ce projet est un exemple illustratif** : toutes les données sont **simulées** et servent uniquement à montrer le fonctionnement de l'application.
 
 ---
+## 🎥 Aperçu de l'application
 
+![Aperçu de l'application](img.gif)
+
+---
 ## ✨ Fonctionnalités
 
 - 📈 Suivi des performances hebdomadaires (vitesse, endurance, taux d’erreur,etc.)
@@ -15,6 +19,18 @@ Ce projet est une application web interactive développée avec **Dash** et **Pl
 ---
 
 ## 📁 Structure du projet
+```bash
+athlete_dashboard/
+│
+├── app.py                      # Fichier principal pour lancer l'application Dash
+├── data/
+│   └── data_sources.py         # Données simulées (ou à connecter à une base réelle)
+├── tabs/
+│   ├── performance_tab.py      # Onglet 1 - Performances des athlètes
+│   ├── player_load_tab.py      # Onglet 2 - Player Load & Risques
+│   └── live_tracking.py        # Onglet 3 - Suivi en direct d’un athlète de voile
+└── README.md
+```
 
 
 ---
@@ -41,5 +57,5 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-
+---
 ### L'application sera accessible sur **http://127.0.0.1:8050**
