@@ -53,7 +53,7 @@ venv\Scripts\activate           # Sur Windows
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Exécuter l'application
+### 4. Lancer l’application
 ```bash
 python app.py
 ```
